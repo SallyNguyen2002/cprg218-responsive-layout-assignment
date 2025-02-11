@@ -88,7 +88,11 @@ footer {
 @media screen and (max-width:768px){
 	/*Any screen resolution from
 	0-768px wide*/
-
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
     figure {
         grid-template-columns: 1fr;
     }
